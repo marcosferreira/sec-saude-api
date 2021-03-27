@@ -1,0 +1,40 @@
+{
+  "name": "sec-saude-api",
+  "version": "1.0.0",
+  "description": "API para prover serviços da secretaria de saúde pública",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosferreira/sec-saude-api.git"
+  },
+  "keywords": [
+    "Secretaria",
+    "Saúde",
+    "Node.JS"
+  ],
+  "author": "Marcos Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcosferreira/sec-saude-api/issues"
+  },
+  "homepage": "https://github.com/marcosferreira/sec-saude-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "nodemon": "^2.0.7"
+  }
+}
