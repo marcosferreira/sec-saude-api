@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 
 const { Schema, model } = mongoose;
 
@@ -93,6 +93,6 @@ const BenefitsSchema = new Schema({
   ],
 });
 
-const Benefits = model("Benefits", BenefitsSchema);
+const Benefits = model('Benefits', BenefitsSchema);
 
 export { Benefits };
